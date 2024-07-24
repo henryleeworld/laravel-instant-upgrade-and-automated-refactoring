@@ -7,5 +7,6 @@ use RectorLaravel\Set\LaravelSetList;
 
 return RectorConfig::configure()
     ->withSets([
-        LaravelSetList::LARAVEL_110
+        LaravelSetList::LARAVEL_110,
+        LaravelSetList::LARAVEL_CODE_QUALITY
     ]);
