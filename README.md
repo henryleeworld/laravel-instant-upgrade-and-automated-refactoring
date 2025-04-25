@@ -1,4 +1,4 @@
-# Laravel 11 即時升級和自動重構
+# Laravel 12 即時升級和自動重構
 
 引入 driftingly 的 rector-laravel 套件來擴增即時升級和自動重構，透過套用規則來自動化修改、重構及掃描程式碼。
 
@@ -23,5 +23,5 @@ $ ./vendor/bin/rector process {目錄} {--dry-run}
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/wkxDPIo.png)
+![](https://i.imgur.com/lo9GyP1.png)
 > 在對外的介面上沒有做改變、介面背後的對應行為也沒有改變的情況下，基於可讀性，以及日後更便於修改的目的之下，來評估改寫內部的程式碼實作
